@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "884e7cac-6ea4-43a5-aba8-1bcd2939742c"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -76,6 +79,9 @@
             },
             "development": {
               "browserTarget": "dukat:build:development"
+            },
+            "options": {
+              "proxyConfig": "proxy.config.js"
             }
           },
           "defaultConfiguration": "development"
